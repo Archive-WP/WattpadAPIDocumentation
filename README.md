@@ -1,5 +1,10 @@
 # Unofficial documentation for the Wattpad API
 
+### General:
+
+- [Query Construction](./Query_Construction.md)
+- [Error Codes](./Error_Codes.md)
+
 ### API Endpoints:
 
 - [User Info](./User_Info.md)

@@ -15,7 +15,3 @@ The general syntax is as follows: \
 `https://www.wattpad.com/api/v3/users/Wattpad?fields=username,description,numStoriesPublished`
 
 `https://www.wattpad.com/api/v3/users/WattpadExplorer/followers?fields=users(username,backgroundURL,description,numFollwers)`
-
-# Error Codes:
-
-[InvalidEndpoint](./Error_Codes.md#invalidendpoint)
