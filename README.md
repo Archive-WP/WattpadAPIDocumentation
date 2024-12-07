@@ -19,6 +19,8 @@
 - [Part Info](./API_Endpoints/Part_Info.md)
 - [Part Content](./API_Endpoints/Part_Content.md)
 - [List Info](./API_Endpoints/List_Info.md)
+- [Search Users](./API_Endpoints/Search_Users.md)
+- [Search Stories](./API_Endpoints/Search_Stories.md)
 
 ### Data Types:
 
@@ -27,3 +29,5 @@
 - [Part](./Data_Types/Part.md)
 - [List](./Data_Types/List.md)
 - [Language](./Data_Types/Language.md)
+- [Category](./Data_Types/Category.md)
+- [Tag](./Data_Types/Tag.md)

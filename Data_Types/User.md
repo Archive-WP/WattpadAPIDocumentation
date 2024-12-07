@@ -11,6 +11,7 @@
 | name | String |
 | fullname | String |
 | description | String |
+| badges | List (String) |
 | status | String |
 | gender | String |
 | genderCode | String |

@@ -12,6 +12,11 @@ The general syntax is as follows: \
 `URL` is the endpoint URL to make a request to. \
 `Fields` is a comma-separated list of every field you wish to receive.
 
+### Note:
+
+For `v4` endpoints such as [Search Users](../API_Endpoints/Search_Users.md) the syntax is: \
+`{URL}&fields={Fields}`
+
 ### Example Queries:
 
 `https://www.wattpad.com/api/v3/users/Wattpad?fields=username,description,numStoriesPublished`

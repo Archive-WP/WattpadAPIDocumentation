@@ -10,7 +10,7 @@ Returns a list of user's lists.
 
 | Field | Data Type |
 | - | - |
-| lists | list ([List](../Data_Types/List.md)) |
+| lists | List ([List](../Data_Types/List.md)) |
 | total | Int |
 
 ### Error Codes:

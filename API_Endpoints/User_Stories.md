@@ -10,7 +10,7 @@ Returns a list of a user's published stories.
 
 | Field | Data Type |
 | - | - |
-| stories | list ([Story](../Data_Types/Story.md)) |
+| stories | List ([Story](../Data_Types/Story.md)) |
 | total | Int |
 
 ### Error Codes:

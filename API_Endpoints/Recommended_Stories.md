@@ -8,7 +8,7 @@ Returns a list of recommend stories based on a story.
 
 ### Fields:
 
-This endpoint returns a list of [Stories](../Data_Types/Story.md).
+This endpoint returns a List of [Stories](../Data_Types/Story.md).
 
 ### Error Codes:
 
