@@ -14,7 +14,15 @@ Error Code: `1001` \
 Error Type: `InvalidEndpoint` \
 Message: `API method not found`
 
-If an invalid endpoint is specified this error will be returned.
+If an invalid endpoint is specified, this error will be returned.
+
+### 1005:
+
+Error Code: `1005` \
+Error Type: `InvalidValue` \
+Message: `Invalid parameter value`
+
+If no fields are requested, this error will be returned.
 
 ### 1011:
 
@@ -30,7 +38,7 @@ Error Code: `1014` \
 Error Type: `NotFound` \
 Message: `User not found`
 
-If a deleted or non-existent user is specified for [User Info](../API_Endpoints/User_Info.md), [User Following List](../API_Endpoints/User_Following_List.md), or [User Followers List](../API_Endpoints/User_Followers_List.md) this error will be returned.
+If a deleted or non-existent user is specified for [User Info](../API_Endpoints/User_Info.md), [User Following List](../API_Endpoints/User_Following_List.md), or [User Followers List](../API_Endpoints/User_Followers_List.md), this error will be returned.
 
 ### 1017:
 
