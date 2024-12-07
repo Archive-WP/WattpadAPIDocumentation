@@ -4,9 +4,9 @@
 
 Error Code: `462` \
 Error Type: `ERROR` \
-Message: `Missing id or group_id`
+Message: `Too many parts; please request zip`
 
-If a deleted or non-existent story is specified for [Part Content](../API_Endpoints/Part_Content.md), this error will be returned.
+If too many parts are requested at once from [Part Content](../API_Endpoints/Part_Content.md), this error will be returned.
 
 ### 463:
 
@@ -14,7 +14,7 @@ Error Code: `463` \
 Error Type: `ERROR` \
 Message: `Could not find any parts for that story`
 
-If a deleted or non-existent part is specified for [Part Content](../API_Endpoints/Part_Content.md), this error will be returned.
+If a deleted or non-existent id is specified for [Part Content](../API_Endpoints/Part_Content.md), this error will be returned.
 
 ### 1001:
 
