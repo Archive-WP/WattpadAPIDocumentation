@@ -20,13 +20,13 @@ The general syntax is as follows: \
 
 ## NextURL, Limit, and Offset:
 
-By default, when making queries that return lists as the primary data type (E.G. [User Following List](../API_Endpoints/User_Following_List.md) and [User Followers List](../API_Endpoints/User_Followers_List.md)), Wattpad will only return the first 10 items. The `nextUrl` field is an automatically generated URL from Wattpad that utilizes `limit` and `offset` to provide the next set of items.
+By default, when making queries that return lists as the primary data type (E.g. [User Following List](../API_Endpoints/User_Following_List.md) and [User Followers List](../API_Endpoints/User_Followers_List.md)), Wattpad will only return the first 10 items. The `nextUrl` field is an automatically generated URL from Wattpad that utilizes `limit` and `offset` to provide the next set of items.
 
 `nextUrl`'s `limit` value will be the same as the current request's `limit`.
 
-`nextUrl`'s `offset` value will be the current request's `limit` and `offset` valued added together.
+`nextUrl`'s `offset` value will be the sum of the current request's `limit` and `offset` values.
 
-However, `limit` and `offset` can be manually used to gain greater control over how what data is requested from the Wattpad API.
+However, `limit` and `offset` can be manually used to gain greater control over what data is requested from the Wattpad API.
 
 `offset` specifies how far into the list the returned items should start from. \
 **Note: `offset` is zero-indexed**
