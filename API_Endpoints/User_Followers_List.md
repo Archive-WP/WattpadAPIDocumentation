@@ -10,7 +10,7 @@ Returns a list of Wattpad users that are following a user
 
 | Field | Data Type |
 | - | - |
-| users | list (Wattpad User) (See attributes of [User_Info](./User_Info.md)) |
+| users | list ([User](../Data_Types/User.md)) |
 | total | Int |
 | nextUrl | URL |
 
