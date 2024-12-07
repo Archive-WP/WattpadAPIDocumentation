@@ -26,5 +26,5 @@
 | numParts | Int |
 | firstPublishedPart | [Part](./Part.md) |
 | lastPublishedPart | [Part](./Part.md) |
-| parts | List (Part) |
+| parts | List ([Part](./Part.md)) |
 | deleted | Boolean |

@@ -15,4 +15,5 @@
 | commentCount | Int |
 | voteCount | Int |
 | readCount | Int |
+| groupId | String |
 | voted | Boolean |

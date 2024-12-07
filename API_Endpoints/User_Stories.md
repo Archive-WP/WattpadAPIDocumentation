@@ -1,6 +1,6 @@
 # User Following List:
 
-Returns a list of Wattpad users published stories.
+Returns a list of a user's published stories.
 
 ### URL:
 
@@ -15,7 +15,7 @@ Returns a list of Wattpad users published stories.
 
 ### Error Codes:
 
-- [NotFound](../General/Error_Codes.md#notfound)
+- [NotFound](../General/Error_Codes.md#1014)
 
 ### Example Usage:
 

@@ -1,6 +1,6 @@
 # User Info:
 
-Returns info about a Wattpad user
+Returns info about a user
 
 ### URL:
 
@@ -12,7 +12,7 @@ This endpoint returns a [User](../Data_Types/User.md).
 
 ### Error Codes:
 
-- [NotFound](../General/Error_Codes.md#notfound)
+- [NotFound](../General/Error_Codes.md#1014)
 
 ### Example Usage:
 

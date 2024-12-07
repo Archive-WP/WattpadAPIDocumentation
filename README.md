@@ -12,3 +12,10 @@
 - [User Info](./API_Endpoints/User_Info.md)
 - [User Following List](./API_Endpoints/User_Following_List.md)
 - [User Followers List](./API_Endpoints/User_Followers_List.md)
+
+### Data Types:
+
+- [User](./Data_Types/User.md)
+- [Story](./Data_Types/Story.md)
+- [Part](./Data_Types/Part.md)
+- [Language](./Data_Types/Language.md)

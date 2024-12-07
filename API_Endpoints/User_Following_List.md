@@ -16,7 +16,7 @@ Returns a list of Wattpad users that a user follows
 
 ### Error Codes:
 
-- [NotFound](../General/Error_Codes.md#notfound)
+- [NotFound](../General/Error_Codes.md#1014)
 
 ### Example Usage:
 
