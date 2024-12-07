@@ -1,4 +1,4 @@
-# User Following List:
+# User Stories:
 
 Returns a list of a user's published stories.
 

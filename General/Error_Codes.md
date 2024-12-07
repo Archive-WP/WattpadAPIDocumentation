@@ -1,5 +1,13 @@
 # Error Codes:
 
+### 462:
+
+Error Code: `462` \
+Error Type: `ERROR` \
+Message: `Missing id or group_id`
+
+If a deleted or non-existent story is specified for [Part Content](../API_Endpoints/Part_Content.md), this error will be returned.
+
 ### 463:
 
 Error Code: `463` \
@@ -22,7 +30,16 @@ Error Code: `1005` \
 Error Type: `InvalidValue` \
 Message: `Invalid parameter value`
 
-If no fields are requested, this error will be returned.
+If non-existent fields are requested, this error will be returned. \
+**NOTE: Not all endpoints will return this error for non-existent fields**
+
+### 1006:
+
+Error Code: `1006` \
+Error Type: `RequiredParamMissing` \
+Message: `Parameter missing`
+
+If parameters an endpoint requires are missing, this error will be returned.
 
 ### 1011:
 
@@ -38,7 +55,7 @@ Error Code: `1014` \
 Error Type: `NotFound` \
 Message: `User not found`
 
-If a deleted or non-existent user is specified for [User Info](../API_Endpoints/User_Info.md), [User Following List](../API_Endpoints/User_Following_List.md), or [User Followers List](../API_Endpoints/User_Followers_List.md), this error will be returned.
+If a deleted or non-existent user is specified for [User Info](../API_Endpoints/User_Info.md), [Following](../API_Endpoints/Following.md), or [Followers](../API_Endpoints/Followers.md), this error will be returned.
 
 ### 1017:
 
@@ -71,3 +88,11 @@ Error Type: `InternalError` \
 Message: `Followers disabled`
 
 Attempting to query a user's followers past 2000 returns this error.
+
+### 2001:
+
+Error Code: `2001` \
+Error Type: `InternalError` \
+Message: `Oops something went wrong, please try again later`
+
+Invalid use of `?tags=` in [Hotlist](../API_Endpoints/Hotlist.md) returns this error.

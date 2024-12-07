@@ -1,4 +1,4 @@
-# User Info:
+# Story Info:
 
 Returns info about a story
 

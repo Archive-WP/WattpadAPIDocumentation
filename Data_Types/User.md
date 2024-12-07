@@ -38,3 +38,12 @@
 | allowCrawler | Boolean |
 | deeplink | URL |
 | isMuted | Boolean |
+| **birthdate** | **UTC Time** |
+| **inbox** | [**Inbox**](./Inbox.md) |
+| **notifications** | [**Notifications**](./Notifications.md) |
+| **connectedServices** | [**Connected Services**](./Connected_Services.md) |
+| **age** | **Int** |
+| **email** | **String** |
+| **has_password** | **Boolean** |
+
+**\*Bold items require authentication**

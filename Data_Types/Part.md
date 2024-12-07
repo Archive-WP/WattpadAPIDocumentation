@@ -17,3 +17,4 @@
 | readCount | Int |
 | groupId | String |
 | voted | Boolean |
+| group | [Story](./Story.md) |

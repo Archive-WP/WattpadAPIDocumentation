@@ -1,6 +1,6 @@
-# User Following List:
+# Following:
 
-Returns a list of Wattpad users that a user follows
+Returns a list of users that a user follows
 
 ### URL:
 

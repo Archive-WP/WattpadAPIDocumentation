@@ -1,4 +1,4 @@
-# User Following List:
+# Following:
 
 Returns a list of user's lists.
 

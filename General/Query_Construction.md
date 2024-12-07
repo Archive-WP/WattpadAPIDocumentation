@@ -25,7 +25,7 @@ For `v4` endpoints such as [Search Users](../API_Endpoints/Search_Users.md) the 
 
 ## NextURL, Limit, and Offset:
 
-By default, when making queries that return lists as the primary data type (E.g. [User Following List](../API_Endpoints/User_Following_List.md) and [User Followers List](../API_Endpoints/User_Followers_List.md)), Wattpad will only return the first 10 items. The `nextUrl` field is an automatically generated URL from Wattpad that utilizes `limit` and `offset` to provide the next set of items.
+By default, when making queries that return lists as the primary data type (E.g. [Following](../API_Endpoints/Following.md) and [Followers](../API_Endpoints/Followers.md)), Wattpad will only return the first 10 items. The `nextUrl` field is an automatically generated URL from Wattpad that utilizes `limit` and `offset` to provide the next set of items.
 
 `nextUrl`'s `limit` value will be the same as the current request's `limit`.
 

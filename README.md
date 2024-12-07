@@ -10,8 +10,8 @@
 ### API Endpoints:
 
 - [User Info](./API_Endpoints/User_Info.md)
-- [User Following List](./API_Endpoints/User_Following_List.md)
-- [User Followers List](./API_Endpoints/User_Followers_List.md)
+- [Following](./API_Endpoints/Following.md)
+- [Followers](./API_Endpoints/Followers.md)
 - [User Stories](./API_Endpoints/User_Stories.md)
 - [User Lists](./API_Endpoints/User_Lists.md)
 - [Story Info](./API_Endpoints/Story_Info.md)
@@ -21,6 +21,13 @@
 - [List Info](./API_Endpoints/List_Info.md)
 - [Search Users](./API_Endpoints/Search_Users.md)
 - [Search Stories](./API_Endpoints/Search_Stories.md)
+- [Lists](./API_Endpoints/Lists.md)
+- [Parts](./API_Endpoints/Parts.md)
+- [Stories](./API_Endpoints/Stories.md)
+- [Discover](./API_Endpoints/Discover.md)
+- [Hotlist](./API_Endpoints/Hotlist.md)
+- [Paid Stories](./API_Endpoints/Paid_Stories.md)
+- [Paid Stories Tags](./API_Endpoints/Paid_Stories_Tags)
 
 ### Data Types:
 
@@ -31,3 +38,6 @@
 - [Language](./Data_Types/Language.md)
 - [Category](./Data_Types/Category.md)
 - [Tag](./Data_Types/Tag.md)
+- [Notifications](./Data_Types/Notifications.md)
+- [Inbox](./Data_Types/Inbox.md)
+- [Connected Services](./Data_Types/Connected_Services.md)

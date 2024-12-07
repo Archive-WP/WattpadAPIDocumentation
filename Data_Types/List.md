@@ -9,3 +9,4 @@
 | sample_covers | List (URL) |
 | cover | URL |
 | featured | Boolean |
+| stories | List ([Story](./Story.md))
