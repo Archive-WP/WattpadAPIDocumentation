@@ -15,7 +15,7 @@
 - [User Stories](./API_Endpoints/User_Stories.md)
 - [User Lists](./API_Endpoints/User_Lists.md)
 - [Story Info](./API_Endpoints/Story_Info.md)
-- [Story Recommended](./API_Endpoints/Story_Recommended.md)
+- [Recommended Stories](./API_Endpoints/Recommended_Stories.md)
 - [Part Info](./API_Endpoints/Part_Info.md)
 - [Part Content](./API_Endpoints/Part_Content.md)
 - [List Info](./API_Endpoints/List_Info.md)

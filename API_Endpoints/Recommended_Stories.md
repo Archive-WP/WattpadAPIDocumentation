@@ -1,4 +1,4 @@
-# User Info:
+# Recommended Stories:
 
 Returns a list of recommend stories based on a story.
 
