@@ -28,7 +28,7 @@ By default, when making queries that return lists as the primary data type (E.G.
 
 However, `limit` and `offset` can be manually used to gain greater control over how what data is requested from the Wattpad API.
 
-`offset` specifies how far into the list the returned values should start from, the default value is `offset` is not used is 0. \
+`offset` specifies how far into the list the returned items should start from. \
 **Note: `offset` is zero-indexed**
 
 `limit` specifies the maximum number of items that will be returned.
