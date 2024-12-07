@@ -1,5 +1,13 @@
 # Error Codes:
 
+### 463:
+
+Error Code: `463` \
+Error Type: `ERROR` \
+Message: `Could not find any parts for that story`
+
+If a deleted or non-existent part is specified for [Part Content](../API_Endpoints/Part_Content.md), this error will be returned.
+
 ### 1001:
 
 Error Code: `1001` \
@@ -7,6 +15,14 @@ Error Type: `InvalidEndpoint` \
 Message: `API method not found`
 
 If an invalid endpoint is specified this error will be returned.
+
+### 1011:
+
+Error Code: `1011` \
+Error Type: `NotFound` \
+Message: `Reading list not found`
+
+If a deleted or non-existent list is specified for [List Info](../API_Endpoints/List_Info.md), this error will be returned.
 
 ### 1014:
 
