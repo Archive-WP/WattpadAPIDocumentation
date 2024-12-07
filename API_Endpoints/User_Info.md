@@ -47,7 +47,7 @@ Returns info about a Wattpad user
 
 ### Error Codes:
 
-- [NotFound](./Error_Codes.md#notfound)
+- [NotFound](../General/Error_Codes.md#notfound)
 
 ### Example Usage:
 
