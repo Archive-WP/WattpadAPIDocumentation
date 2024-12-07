@@ -40,7 +40,7 @@ Returns info about a Wattpad user
 | numMessages | Int |
 | numLists | Int |
 | verified_email | Boolean |
-| preferred_categories | List |
+| preferred_categories | List (String) |
 | allowCrawler | Boolean |
 | deeplink | URL |
 | isMuted | Boolean |
