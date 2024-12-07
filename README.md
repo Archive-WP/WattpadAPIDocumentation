@@ -28,6 +28,14 @@
 - [Hotlist](./API_Endpoints/Hotlist.md)
 - [Paid Stories](./API_Endpoints/Paid_Stories.md)
 - [Paid Stories Tags](./API_Endpoints/Paid_Stories_Tags)
+- [Blocks](./API_Endpoints/Blocks.md)
+- [Comments](./API_Endpoints/Comments.md)
+- [Paid Content](./API_Endpoints/Paid_Content.md)
+- [Paid Stories Tags](./API_Endpoints/Paid_Stories_Tags.md)
+- [Paragraphs](./API_Endpoints/Paragraphs.md)
+- [Sync Reading Position](./API_Endpoints/Sync_Reading_Position.md)
+- [User Messages](./API_Endpoints/User_Messages.md)
+- [User Reading Lists](./API_Endpoints/User_Reading_Lists.md)
 
 ### Data Types:
 
@@ -41,3 +49,11 @@
 - [Notifications](./Data_Types/Notifications.md)
 - [Inbox](./Data_Types/Inbox.md)
 - [Connected Services](./Data_Types/Connected_Services.md)
+- [Comment](./Data_Types/Comment.md)
+- [Comment Resource](./Data_Types/Comment_Resource.md)
+- [Data](./Data_Types/Data.md)
+- [Message](./Data_Types/Message.md)
+- [Paid Part](./Data_Types/Paid_Part.md)
+- [Paid Story](./Data_Types/Paid_Story.md)
+- [Paragraph](./Data_Types/Paragraph.md)
+- [Price](./Data_Types/Price)

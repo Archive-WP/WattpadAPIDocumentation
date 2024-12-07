@@ -1,4 +1,4 @@
-# Following:
+# Part Content:
 
 Returns part content. \
 **NOTE: This endpoint requires authentication cookies in order to access paid story content**
@@ -42,7 +42,7 @@ If no `output` mode if specified, part content will be downloaded in raw form.
 
 ### Error Codes:
 
-- [462](../General/Error_Codes.md#462)
+- [462](../General/Error_Codes.md#462A)
 - [463](../General/Error_Codes.md#463)
 
 ### Example Usage:

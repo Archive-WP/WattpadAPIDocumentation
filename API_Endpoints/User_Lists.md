@@ -1,4 +1,4 @@
-# Following:
+# User Lists:
 
 Returns a list of user's lists.
 
@@ -12,6 +12,10 @@ Returns a list of user's lists.
 | - | - |
 | lists | List ([List](../Data_Types/List.md)) |
 | total | Int |
+
+## Special Syntax:
+
+`?non_empty=1` can be appended to return only lists with at least one story.
 
 ### Error Codes:
 

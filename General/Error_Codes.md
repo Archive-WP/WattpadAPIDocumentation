@@ -1,12 +1,20 @@
 # Error Codes:
 
-### 462:
+### 462A:
 
 Error Code: `462` \
 Error Type: `ERROR` \
 Message: `Too many parts; please request zip`
 
 If too many parts are requested at once from [Part Content](../API_Endpoints/Part_Content.md), this error will be returned.
+
+### 462B:
+
+Error Code: `462` \
+Error Type: `ERROR` \
+Message: `Missing story_id`
+
+If the `?story_id={Part ID}` parameter is not used with [Sync Reading Position](../API_Endpoints/Sync_Reading_Position.md), this error will be returned.
 
 ### 463:
 
@@ -15,6 +23,14 @@ Error Type: `ERROR` \
 Message: `Could not find any parts for that story`
 
 If a deleted or non-existent id is specified for [Part Content](../API_Endpoints/Part_Content.md), this error will be returned.
+
+### 466:
+
+Error Code: `466` \
+Error Type: `ERROR` \
+Message: `Invalid request method`
+
+Honestly I'm not sure what triggers this, but going to `https://www.wattpad.com/apiv2/ignoreuser` causes it.
 
 ### 1001:
 
@@ -55,7 +71,7 @@ Error Code: `1014` \
 Error Type: `NotFound` \
 Message: `User not found`
 
-If a deleted or non-existent user is specified for [User Info](../API_Endpoints/User_Info.md), [Following](../API_Endpoints/Following.md), or [Followers](../API_Endpoints/Followers.md), this error will be returned.
+If a deleted or non-existent user is specified for [User Info](../API_Endpoints/User_Info.md), [User Messages](../API_Endpoints/User_Messages.md), [Following](../API_Endpoints/Following.md), or [Followers](../API_Endpoints/Followers.md), this error will be returned.
 
 ### 1017:
 
@@ -64,6 +80,14 @@ Error Type: `NotFound` \
 Message: `Story not found`
 
 If a deleted or non-existent story is specified for [Story Info](../API_Endpoints/Story_Info.md), this error will be returned.
+
+### 1018:
+
+Error Code: `1018` \
+Error Type: `PermissionDenied` \
+Message: `User not logged in`
+
+If [Blocks](../API_Endpoints/Blocks.md) is accessed without authentication cookies, this error will be returned.
 
 ### 1020:
 
@@ -80,6 +104,23 @@ Error Type: `PermissionDenied` \
 message: `Not authorized to access API.  Go to developer.wattpad.com to get an API key.`
 
 Honestly I'm not sure what triggers this, just that clicking Wattpad API URLs will always give me this until I click into the URL bar and then hit enter.
+
+### 1131:
+
+Error Code: `1131` \
+Error Type: `InvalidAction` \
+message: `Conversations have been disabled on this profile.`
+
+Attempting to use [User Messages](../API_Endpoints/User_Messages.md) on a user that has disabled conversations will return this error.
+
+### 1154:
+
+Error Code: `1154` \
+Error Type: `AccessDenied` \
+Message: `Access denied`
+
+If [Blocks](../API_Endpoints/Blocks.md) is accessed without authentication cookies from the target user, this error will be returned.
+
 
 ### 1099:
 
