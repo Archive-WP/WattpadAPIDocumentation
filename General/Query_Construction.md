@@ -50,7 +50,7 @@ The default for `offset` is 0.
 
 `https://www.wattpad.com/api/v3/users/wattpad/following?limit=5&offset=10`
 
-will return the 10th to 15th users, and it's `nextUrl` will be
+will return the 11th to 16th users, and it's `nextUrl` will be
 
 `https://www.wattpad.com/api/v3/users/wattpad/following?limit=5&offset=15`
 \
@@ -58,6 +58,6 @@ will return the 10th to 15th users, and it's `nextUrl` will be
 \
 `https://www.wattpad.com/api/v3/users/wattpad/following?limit=2&offset=30`
 
-will return the 30th to 32nd users, and it's `nextUrl` will be
+will return the 31th to 33nd users, and it's `nextUrl` will be
 
 `https://www.wattpad.com/api/v3/users/wattpad/following?limit=5&offset=15`
