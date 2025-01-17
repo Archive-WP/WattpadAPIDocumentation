@@ -44,7 +44,7 @@ The general syntax for `limit` and `offset` is as follows: \
 It is not required to use both at once, and if one or both are omitted then the default values will be used.
 
 The default for `limit` is 10. \
-Ehe default for `offset` is 0.
+The default for `offset` is 0.
 
 ### Example Queries:
 
