@@ -36,6 +36,7 @@
 - [User Messages](./API_Endpoints/User_Messages.md)
 - [User Reading Lists](./API_Endpoints/User_Reading_Lists.md)
 - [User Stories](./API_Endpoints/User_Stories.md)
+- [Wallet](./API_Endpoints/Wallet.md)
 
 ### Data Types:
 
