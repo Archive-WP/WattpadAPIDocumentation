@@ -2,6 +2,7 @@
 
 ### General:
 
+- [Authentication](./General/Authentication.md)
 - [Error Codes](./General/Error_Codes.md)
 - [Query Construction](./General/Query_Construction.md)
 
