@@ -71,7 +71,7 @@ Error Code: `1014` \
 Error Type: `NotFound` \
 Message: `User not found`
 
-If a deleted or non-existent user is specified for [User Info](../API_Endpoints/User_Info.md), [User Messages](../API_Endpoints/User_Messages.md), [Following](../API_Endpoints/Following.md), or [Followers](../API_Endpoints/Followers.md), this error will be returned.
+If a deleted or non-existent user is specified for [User Info](../API_Endpoints/User_Info.md), [User Messages](../API_Endpoints/User_Messages.md), [User Stories](../API_Endpoints/User_Stories.md), [Following](../API_Endpoints/Following.md), or [Followers](../API_Endpoints/Followers.md), this error will be returned.
 
 ### 1017:
 
