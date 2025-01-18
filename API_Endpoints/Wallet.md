@@ -7,7 +7,7 @@ Returns info about the user's coin wallet \
 
 `https://www.wattpad.com/v5/users/{literally anything}/wallet`
 
-**This endpoint is really weird, the requests from https://wattpad.com will always use your username, but you can put literally any string in place of your username and it will still return *your* wallet info**
+**This endpoint is weird, the requests from https://wattpad.com will always use your username, but you can put literally any string in place of your username and it will still return *your* wallet info**
 
 ### Fields:
 

@@ -9,6 +9,7 @@
 | draft | Boolean |
 | modifyDate | UTC Time |
 | createDate | UTC Time |
+| hasBannedImages | Boolean |
 | length | Int |
 | videoId | String |
 | photoUrl | URL |

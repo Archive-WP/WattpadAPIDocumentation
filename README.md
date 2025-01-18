@@ -7,14 +7,18 @@
 
 ### API Endpoints:
 
+- [Archive](./API_Endpoints/Archive.md)
 - [Blocks](./API_Endpoints/Blocks.md)
 - [Comments](./API_Endpoints/Comments.md)
+- [Content Settings](./API_Endpoints/Content_Settings.md)
 - [Discover](./API_Endpoints/Discover.md)
 - [Followers](./API_Endpoints/Followers.md)
 - [Following](./API_Endpoints/Following.md)
 - [Hotlist](./API_Endpoints/Hotlist.md)
+- [Library](./API_Endpoints/Library.md)
 - [List Info](./API_Endpoints/List_Info.md)
 - [Lists](./API_Endpoints/Lists.md)
+- [Notifications](./API_Endpoints/Notifications.md)
 - [Paid Content](./API_Endpoints/Paid_Content.md)
 - [Paid Stories Tags](./API_Endpoints/Paid_Stories_Tags)
 - [Paid Stories Tags](./API_Endpoints/Paid_Stories_Tags.md)
@@ -38,15 +42,24 @@
 
 ### Data Types:
 
+- [Call To Action URL](./Data_Types/Call_To_Action_URL.md)
 - [Category](./Data_Types/Category.md)
 - [Comment Resource](./Data_Types/Comment_Resource.md)
 - [Comment](./Data_Types/Comment.md)
 - [Connected Services](./Data_Types/Connected_Services.md)
 - [Data](./Data_Types/Data.md)
+- [Follow Requests Resource](./Data_Types/Follow_Requests_Resource.md)
+- [Images Resource Nested](./Data_Types/Images_Resource_Nested.md)
+- [Images Resource](./Data_Types/Images_Resource.md)
 - [Inbox](./Data_Types/Inbox.md)
+- [Inline_Comment](./Data_Types/Inline_Comment.md)
 - [Language](./Data_Types/Language.md)
+- [Library Resource](./Data_Types/Library_Resource.md)
 - [List](./Data_Types/List.md)
 - [Message](./Data_Types/Message.md)
+- [Notification Data](./Data_Types/Notification_Data.md)
+- [Notification](./Data_Types/Notification.md)
+- [Notifications Resource](./Data_Types/Notifications_Resouce.md)
 - [Notifications](./Data_Types/Notifications.md)
 - [Paid Part](./Data_Types/Paid_Part.md)
 - [Paid Story](./Data_Types/Paid_Story.md)

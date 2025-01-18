@@ -87,7 +87,7 @@ Error Code: `1018` \
 Error Type: `PermissionDenied` \
 Message: `User not logged in`
 
-If [Blocks](../API_Endpoints/Blocks.md) or [Wallet](../API_Endpoints/Wallet.md) is accessed without authentication cookies, this error will be returned.
+If [Blocks](../API_Endpoints/Blocks.md), [Content Settings](../API_Endpoints/Content_Settings.md), or [Wallet](../API_Endpoints/Wallet.md) is accessed without authentication cookies, this error will be returned.
 
 ### 1020:
 
