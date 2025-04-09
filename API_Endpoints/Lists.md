@@ -21,6 +21,7 @@ Search for lists.
 ### Error Codes:
 
 - [InvalidValue](../General/Error_Codes.md#1005)
+- [RequiredParamMissing ](../General/Error_Codes.md#1006)
 
 ### Example Usage:
 
