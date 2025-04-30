@@ -16,13 +16,21 @@ Message: `Missing story_id`
 
 If the `?story_id={Part ID}` parameter is not used with [Sync Reading Position](../API_Endpoints/Sync_Reading_Position.md), this error will be returned.
 
-### 463:
+### 463A:
 
 Error Code: `463` \
 Error Type: `ERROR` \
 Message: `Could not find any parts for that story`
 
 If a deleted or non-existent id is specified for [Part Content](../API_Endpoints/Part_Content.md), this error will be returned.
+
+### 463B:
+
+Error Code: `463` \
+Error Type: `ERROR` \
+Message: `Invalid output format`
+
+If an invalid output format is specified for [Part Content](../API_Endpoints/Part_Content.md), this error will be returned.
 
 ### 466:
 

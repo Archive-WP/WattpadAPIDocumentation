@@ -43,7 +43,8 @@ If no `output` mode if specified, part content will be downloaded in raw form.
 ### Error Codes:
 
 - [462](../General/Error_Codes.md#462A)
-- [463](../General/Error_Codes.md#463)
+- [463A](../General/Error_Codes.md#463A)
+- [463B](../General/Error_Codes.md#463B)
 
 ### Example Usage:
 
