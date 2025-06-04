@@ -1,6 +1,7 @@
 # Comments:
 
-Returns a list of comments on a part.
+Returns a list of comments on a part. \
+*Note: This endpoint is very similar to [Part Comments](./Part_Comments.md)*
 
 ### URL:
 
@@ -10,7 +11,7 @@ Returns a list of comments on a part.
 
 | Field | Data Type |
 |-|-|
-| comments | List [Comment](../Data_Types/Commend.md) |
+| comments | List [Comment_V5](../Data_Types/Comment_V5.md) |
 | pagination | [Comment Resource](../Data_Types/Comment_Resource.md) |
 
 ### Example Usage:
