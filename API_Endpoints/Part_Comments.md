@@ -11,7 +11,7 @@ Returns a list of comments on a part. \
 
 | Field | Data Type |
 |-|-|
-| comments | List [Comment_V4](../Data_Types/Comment_V4.md) |
+| comments | List ([Comment_V4](../Data_Types/Comment_V4.md)) |
 | total | Int |
 
 ### Example Usage:

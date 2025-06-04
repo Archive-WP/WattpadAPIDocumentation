@@ -24,6 +24,7 @@
 - [Paid Stories Tags](./API_Endpoints/Paid_Stories_Tags)
 - [Paid Stories Tags](./API_Endpoints/Paid_Stories_Tags.md)
 - [Paid Stories](./API_Endpoints/Paid_Stories.md)
+- [Paragraph Comments](./API_Endpoints/Paragraph_Comments.md)
 - [Paragraphs](./API_Endpoints/Paragraphs.md)
 - [Part Comments](./API_Endpoints/Part_Comments)
 - [Part Content](./API_Endpoints/Part_Content.md)
