@@ -70,6 +70,7 @@
 - [Paragraph](./Data_Types/Paragraph.md)
 - [Part](./Data_Types/Part.md)
 - [Price](./Data_Types/Price)
+- [Reading Position](./Data_Types/Reading_Position.md)
 - [Story](./Data_Types/Story.md)
 - [Tag](./Data_Types/Tag.md)
 - [Text URL](./Data_Types/Text_URL.md)

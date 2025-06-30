@@ -28,3 +28,4 @@
 | lastPublishedPart | [Part](./Part.md) |
 | parts | List ([Part](./Part.md)) |
 | deleted | Boolean |
+| readingPosition | [Reading Position](./Reading_Position.md) |
