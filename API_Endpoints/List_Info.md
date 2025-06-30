@@ -6,6 +6,13 @@ Returns info about a list
 
 `https://www.wattpad.com/api/v3/lists/{id}`
 
+### NOTE:
+
+There is a bug(?) is this endpoint where metadata for deleted parts is returned, this metadata is not returned from any other endpoint. \
+An example list where is occurs is `829974064`. In this this, story `181121904` is shown to have an extra chapter `855649155`. \
+This chapter is not returned using [Story Info](./Story_Info.md). \
+These additional deleted parts have the field `deleted` set to `true`. 
+
 ### Fields:
 
 This endpoint returns a [List](../Data_Types/List.md).

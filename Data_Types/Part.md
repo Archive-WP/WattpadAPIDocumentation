@@ -20,3 +20,4 @@
 | groupId | String |
 | voted | Boolean |
 | group | [Story](./Story.md) |
+| deleted | Boolean |
