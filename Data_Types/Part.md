@@ -5,6 +5,7 @@
 | id | Int |
 | title | String |
 | url | URL |
+| text_url | [Text URL](./Text_URL.md) |
 | rating | Int |
 | draft | Boolean |
 | modifyDate | UTC Time |

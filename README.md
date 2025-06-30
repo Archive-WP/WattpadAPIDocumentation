@@ -72,6 +72,7 @@
 - [Price](./Data_Types/Price)
 - [Story](./Data_Types/Story.md)
 - [Tag](./Data_Types/Tag.md)
+- [Text URL](./Data_Types/Text_URL.md)
 - [User](./Data_Types/User.md)
 
 Something missing? Make a pull request or issue!
