@@ -36,7 +36,8 @@ However, `limit` and `offset` can be manually used to gain greater control over 
 `offset` specifies how far into the list the returned items should start from. \
 **Note: `offset` is zero-indexed**
 
-`limit` specifies the maximum number of items that will be returned.
+`limit` specifies the maximum number of items that will be returned. \
+**Note: some endpoints have an off-by-one error for `limit` and will return one less item than expected. This applies for the default value of `limit` as well.**
 
 The general syntax for `limit` and `offset` is as follows: \
 `{URL}?limit={limit value}?offset={offset value}`
@@ -58,6 +59,6 @@ will return the 11th to 16th users, and it's `nextUrl` will be
 \
 `https://www.wattpad.com/api/v3/users/wattpad/following?limit=2&offset=30`
 
-will return the 31th to 33nd users, and it's `nextUrl` will be
+will return the 31st to 33nd users, and it's `nextUrl` will be
 
 `https://www.wattpad.com/api/v3/users/wattpad/following?limit=5&offset=15`
