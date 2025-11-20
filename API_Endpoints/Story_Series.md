@@ -1,4 +1,4 @@
-# Series:
+# Story Series:
 
 Returns info about the series a book is part of
 
